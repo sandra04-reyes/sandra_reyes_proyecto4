@@ -1,0 +1,25 @@
+# .gitignore para Proyecto 4: Análisis DESeq2 GSE160299
+
+# Historia y configuración de R/RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Descargas pesadas y datos crudos de GEO (¡Evita subirlos a GitHub!)
+*_DESeq2_analysis/data_raw/
+*.tar
+*.gz
+*.txt
+
+# Archivos de resultados intermedios o tablas pesadas
+# (Es mejor que el usuario corra el script para generarlos)
+*_DESeq2_analysis/results/
+
+# Compensación: Permitir subir solo la gráfica de volcán requerida
+!*_DESeq2_analysis/figures/15_geo2r_style_volcano.png
+!*_DESeq2_analysis/figures/15_geo2r_style_volcano.pdf
+
+# Ignorar el resto de las figuras para mantener el repositorio ligero
+*_DESeq2_analysis/figures/*
+!*_DESeq2_analysis/figures/15_geo2r_style_volcano.*

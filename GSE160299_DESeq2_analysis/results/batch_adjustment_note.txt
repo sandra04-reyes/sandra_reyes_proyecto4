@@ -1,0 +1,1 @@
+No explicit non-confounded batch-like metadata column was detected. Batch adjustment was not applied.

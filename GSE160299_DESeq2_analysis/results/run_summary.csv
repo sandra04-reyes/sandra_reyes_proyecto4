@@ -1,0 +1,2 @@
+gse_id,test_level,reference_level,alpha,lfc_cutoff,n_samples,n_genes_before_filter,n_genes_after_filter,design_formula,batch_column_detected,batch_adjusted_in_model,significant_up,significant_down
+GSE160299,PD,NC,0.05,1,8,19801,18517,~condition,none,FALSE,775,2323

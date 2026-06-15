@@ -1,0 +1,9 @@
+count_matrix_col,sample_id,geo_accession,title,source_name_ch1,condition,inferred_short_id,batch
+NC1_count,NC1_count,GSM4870954,Plasma NC1,plasma,NC,NC1,not_available
+NC2_count,NC2_count,GSM4870955,Plasma NC2,plasma,NC,NC2,not_available
+NC3_count,NC3_count,GSM4870956,Plasma NC3,plasma,NC,NC3,not_available
+NC4_count,NC4_count,GSM4870957,Plasma NC4,plasma,NC,NC4,not_available
+PD1_count,PD1_count,GSM4870958,Plasma PD1,plasma,PD,PD1,not_available
+PD2_count,PD2_count,GSM4870959,Plasma PD2,plasma,PD,PD2,not_available
+PD3_count,PD3_count,GSM4870960,Plasma PD3,plasma,PD,PD3,not_available
+PD4_count,PD4_count,GSM4870961,Plasma PD4,plasma,PD,PD4,not_available
